@@ -1,18 +1,20 @@
 import sys
 
+
 def main():
+    # ИСПРАВИТЬ: слишком большой блок try — я предостерегал от этого на занятии
     try:
-        #Регистрируем ввод
+        # Регистрируем ввод
         input_data = sys.stdin.readline().strip().split()
         
         # Распаковка
-        num1  = int(input_data[0])
-        num2  = int(input_data[1])
+        num1 = int(input_data[0])
+        num2 = int(input_data[1])
         
         # проверка деления, в том числе на ноль
         if num2 == 0:
             print('Нельзя делить на ноль!')
-        elif  num1 % num2 == 0:
+        elif num1 % num2 == 0:
             print(f'{num1} делится на {num2} без остатка\nЦелое {num1//num2}')
         else:
             print(f'{num1} не делится на {num2} без остатка\nЦелое: {num1//num2}\nОстаток: {num1%num2}')
@@ -20,7 +22,8 @@ def main():
         print('Вы ввели не числа')
     except IndexError:
         print('Вы ввели сколько чисел?')
-        
+
+
 main()
 
 
@@ -34,3 +37,4 @@ main()
 # 10 не делится на 3 без остатка
 # Целое: 3
 # Остаток: 1
+
