@@ -1,0 +1,562 @@
+[
+    [
+        "__future__",
+        "Future statement definitions"
+    ],
+    [
+        "_thread",
+        "Low-level threading API."
+    ],
+    [
+        "_tkinter",
+        "A binary module that contains the low-level interface to Tcl/Tk."
+    ],
+    [
+        "abc",
+        "Abstract base classes according to :pep:`3119`."
+    ],
+    [
+        "argparse",
+        "Command-line option and argument parsing library."
+    ],
+    [
+        "array",
+        "Space efficient arrays of uniformly typed numeric values."
+    ],
+    [
+        "ast",
+        "Abstract Syntax Tree classes and manipulation."
+    ],
+    [
+        "asyncio",
+        "Asynchronous I/O."
+    ],
+    [
+        "atexit",
+        "Register and execute cleanup functions."
+    ],
+    [
+        "bdb",
+        "Debugger framework."
+    ],
+    [
+        "bisect",
+        "Array bisection algorithms for binary searching."
+    ],
+    [
+        "builtins",
+        "The module that provides the built-in namespace."
+    ],
+    [
+        "bz2",
+        "Interfaces for bzip2 compression and decompression."
+    ],
+    [
+        "cmath",
+        "Mathematical functions for complex numbers."
+    ],
+    [
+        "cmd",
+        "Build line-oriented command interpreters."
+    ],
+    [
+        "code",
+        "Facilities to implement read-eval-print loops."
+    ],
+    [
+        "codecs",
+        "Encode and decode data and streams."
+    ],
+    [
+        "codeop",
+        "Compile (possibly incomplete) Python code."
+    ],
+    [
+        "colorsys",
+        "Conversion functions between RGB and other color systems."
+    ],
+    [
+        "compileall",
+        "Tools for byte-compiling all Python source files in a directory tree."
+    ],
+    [
+        "configparser",
+        "Configuration file parser."
+    ],
+    [
+        "contextlib",
+        "Utilities for with-statement contexts."
+    ],
+    [
+        "contextvars",
+        "Context Variables"
+    ],
+    [
+        "copy",
+        "Shallow and deep copy operations."
+    ],
+    [
+        "copyreg",
+        "Register pickle support functions."
+    ],
+    [
+        "cProfile",
+        ""
+    ],
+    [
+        "csv",
+        "Write and read tabular data to and from delimited files."
+    ],
+    [
+        "ctypes",
+        "A foreign function library for Python."
+    ],
+    [
+        "dataclasses",
+        "Generate special methods on user-defined classes."
+    ],
+    [
+        "datetime",
+        "Basic date and time types."
+    ],
+    [
+        "decimal",
+        "Implementation of the General Decimal Arithmetic  Specification."
+    ],
+    [
+        "difflib",
+        "Helpers for computing differences between objects."
+    ],
+    [
+        "dis",
+        "Disassembler for Python bytecode."
+    ],
+    [
+        "doctest",
+        "Test pieces of code within docstrings."
+    ],
+    [
+        "enum",
+        "Implementation of an enumeration class."
+    ],
+    [
+        "errno",
+        "Standard errno system symbols."
+    ],
+    [
+        "faulthandler",
+        "Dump the Python traceback."
+    ],
+    [
+        "filecmp",
+        "Compare files efficiently."
+    ],
+    [
+        "fileinput",
+        "Loop over standard input or a list of files."
+    ],
+    [
+        "fnmatch",
+        "Unix shell style filename pattern matching."
+    ],
+    [
+        "fractions",
+        "Rational numbers."
+    ],
+    [
+        "ftplib",
+        "FTP protocol client (requires sockets)."
+    ],
+    [
+        "functools",
+        "Higher-order functions and operations on callable objects."
+    ],
+    [
+        "gc",
+        "Interface to the cycle-detecting garbage collector."
+    ],
+    [
+        "getpass",
+        "Portable reading of passwords and retrieval of the userid."
+    ],
+    [
+        "gettext",
+        "Multilingual internationalization services."
+    ],
+    [
+        "glob",
+        "Unix shell style pathname pattern expansion."
+    ],
+    [
+        "graphlib",
+        "Functionality to operate with graph-like structures"
+    ],
+    [
+        "gzip",
+        "Interfaces for gzip compression and decompression using file objects."
+    ],
+    [
+        "hashlib",
+        "Secure hash and message digest algorithms."
+    ],
+    [
+        "heapq",
+        "Heap queue algorithm (a.k.a. priority queue)."
+    ],
+    [
+        "hmac",
+        "Keyed-Hashing for Message Authentication (HMAC) implementation"
+    ],
+    [
+        "idlelib",
+        "Implementation package for the IDLE shell/editor."
+    ],
+    [
+        "imaplib",
+        "IMAP4 protocol client (requires sockets)."
+    ],
+    [
+        "inspect",
+        "Extract information and source code from live objects."
+    ],
+    [
+        "io",
+        "Core tools for working with streams."
+    ],
+    [
+        "ipaddress",
+        "IPv4/IPv6 manipulation library."
+    ],
+    [
+        "itertools",
+        "Functions creating iterators for efficient looping."
+    ],
+    [
+        "keyword",
+        "Test whether a string is a keyword in Python."
+    ],
+    [
+        "linecache",
+        "Provides random access to individual lines from text files."
+    ],
+    [
+        "locale",
+        "Internationalization services."
+    ],
+    [
+        "lzma",
+        "A Python wrapper for the liblzma compression library."
+    ],
+    [
+        "mailbox",
+        "Manipulate mailboxes in various formats"
+    ],
+    [
+        "math",
+        "Mathematical functions (sin() etc.)."
+    ],
+    [
+        "mimetypes",
+        "Mapping of filename extensions to MIME types."
+    ],
+    [
+        "mmap",
+        "Interface to memory-mapped files for Unix and Windows."
+    ],
+    [
+        "modulefinder",
+        "Find modules used by a script."
+    ],
+    [
+        "netrc",
+        "Loading of .netrc files."
+    ],
+    [
+        "numbers",
+        "Numeric abstract base classes (Complex, Real, Integral, etc.)."
+    ],
+    [
+        "operator",
+        "Functions corresponding to the standard operators."
+    ],
+    [
+        "pathlib",
+        "Object-oriented filesystem paths"
+    ],
+    [
+        "pdb",
+        "The Python debugger for interactive interpreters."
+    ],
+    [
+        "pickle",
+        "Convert Python objects to streams of bytes and back."
+    ],
+    [
+        "pkgutil",
+        "Utilities for the import system."
+    ],
+    [
+        "platform",
+        "Retrieves as much platform identifying data as possible."
+    ],
+    [
+        "plistlib",
+        "Generate and parse Apple plist files."
+    ],
+    [
+        "poplib",
+        "POP3 protocol client (requires sockets)."
+    ],
+    [
+        "pprint",
+        "Data pretty printer."
+    ],
+    [
+        "profile",
+        "Python source profiler."
+    ],
+    [
+        "pstats",
+        "Statistics object for use with the profiler."
+    ],
+    [
+        "py_compile",
+        "Generate byte-code files from Python source files."
+    ],
+    [
+        "pyclbr",
+        "Supports information extraction for a Python module browser."
+    ],
+    [
+        "pydoc",
+        "Documentation generator and online help system."
+    ],
+    [
+        "queue",
+        "A synchronized queue class."
+    ],
+    [
+        "quopri",
+        "Encode and decode files using the MIME quoted-printable encoding."
+    ],
+    [
+        "random",
+        "Generate pseudo-random numbers with various common distributions."
+    ],
+    [
+        "re",
+        "Regular expression operations."
+    ],
+    [
+        "reprlib",
+        "Alternate repr() implementation with size limits."
+    ],
+    [
+        "rlcompleter",
+        "Python identifier completion, suitable for the GNU readline library."
+    ],
+    [
+        "runpy",
+        "Locate and run Python modules without importing them first."
+    ],
+    [
+        "sched",
+        "General purpose event scheduler."
+    ],
+    [
+        "secrets",
+        "Generate secure random numbers for managing secrets."
+    ],
+    [
+        "select",
+        "Wait for I/O completion on multiple streams."
+    ],
+    [
+        "selectors",
+        "High-level I/O multiplexing."
+    ],
+    [
+        "shelve",
+        "Python object persistence."
+    ],
+    [
+        "shlex",
+        "Simple lexical analysis for Unix shell-like languages."
+    ],
+    [
+        "shutil",
+        "High-level file operations, including copying."
+    ],
+    [
+        "signal",
+        "Set handlers for asynchronous events."
+    ],
+    [
+        "site",
+        "Module responsible for site-specific configuration."
+    ],
+    [
+        "sitecustomize",
+        ""
+    ],
+    [
+        "smtplib",
+        "SMTP protocol client (requires sockets)."
+    ],
+    [
+        "socket",
+        "Low-level networking interface."
+    ],
+    [
+        "socketserver",
+        "A framework for network servers."
+    ],
+    [
+        "sqlite3",
+        "A DB-API 2.0 implementation using SQLite 3.x."
+    ],
+    [
+        "ssl",
+        "TLS/SSL wrapper for socket objects"
+    ],
+    [
+        "statistics",
+        "Mathematical statistics functions"
+    ],
+    [
+        "string",
+        "Common string operations."
+    ],
+    [
+        "stringprep",
+        "String preparation, as per RFC 3453"
+    ],
+    [
+        "struct",
+        "Interpret bytes as packed binary data."
+    ],
+    [
+        "subprocess",
+        "Subprocess management."
+    ],
+    [
+        "symtable",
+        "Interface to the compiler&#39;s internal symbol tables."
+    ],
+    [
+        "sysconfig",
+        "Python&#39;s configuration information"
+    ],
+    [
+        "tarfile",
+        "Read and write tar-format archive files."
+    ],
+    [
+        "tempfile",
+        "Generate temporary files and directories."
+    ],
+    [
+        "textwrap",
+        "Text wrapping and filling"
+    ],
+    [
+        "threading",
+        "Thread-based parallelism."
+    ],
+    [
+        "time",
+        "Time access and conversions."
+    ],
+    [
+        "timeit",
+        "Measure the execution time of small code snippets."
+    ],
+    [
+        "token",
+        "Constants representing terminal nodes of the parse tree."
+    ],
+    [
+        "tokenize",
+        "Lexical scanner for Python source code."
+    ],
+    [
+        "tomllib",
+        "Parse TOML files."
+    ],
+    [
+        "trace",
+        "Trace or track Python statement execution."
+    ],
+    [
+        "traceback",
+        "Print or retrieve a stack traceback."
+    ],
+    [
+        "tracemalloc",
+        "Trace memory allocations."
+    ],
+    [
+        "turtle",
+        "An educational framework for simple graphics applications"
+    ],
+    [
+        "turtledemo",
+        "A viewer for example turtle scripts"
+    ],
+    [
+        "types",
+        "Names for built-in types."
+    ],
+    [
+        "typing",
+        "Support for type hints (see :pep:`484`)."
+    ],
+    [
+        "unicodedata",
+        "Access the Unicode Database."
+    ],
+    [
+        "usercustomize",
+        ""
+    ],
+    [
+        "uuid",
+        "UUID objects (universally unique identifiers) according to RFC 4122"
+    ],
+    [
+        "venv",
+        "Creation of virtual environments."
+    ],
+    [
+        "warnings",
+        "Issue warning messages and control their disposition."
+    ],
+    [
+        "wave",
+        "Provide an interface to the WAV sound format."
+    ],
+    [
+        "weakref",
+        "Support for weak references and weak dictionaries."
+    ],
+    [
+        "webbrowser",
+        "Easy-to-use controller for web browsers."
+    ],
+    [
+        "zipapp",
+        "Manage executable Python zip archives"
+    ],
+    [
+        "zipfile",
+        "Read and write ZIP-format archive files."
+    ],
+    [
+        "zipimport",
+        "Support for importing Python modules from ZIP archives."
+    ],
+    [
+        "zoneinfo",
+        "IANA time zone support"
+    ]
+]
